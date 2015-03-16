@@ -16,7 +16,7 @@ The purpose of number formatting is to convert a Number object to a human readab
         kendo.toString(1234.567, "n"); //1,234.57
 
         kendo.toString(10.12, "n5"); //10.12000
-        kendo.toString(10.12, "n0"); //10
+        kendo.toString(100000000.12, "n0"); //10
 
         kendo.culture("de-DE");
         kendo.toString(1234.567, "n3"); //1.234,567
